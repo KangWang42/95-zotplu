@@ -9,16 +9,27 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="head-container">
-            <div id="conhead">
-                <p>截至2024年10月16日，删除爬取脚本，仅作为教程汇总界面</p>
-                <p>需要获取xpi插件文件可在博客主页资源下载处下载，或从教程进入git仓库下载</p>
-                <p>里边都是自己常用的插件，我不常用或者觉得没那么必要的都没写</p>
-                <button id="cusbut" onclick="redirectTo('http://wk8686.top/')" type="button">返回博客，查看更多内容</button>
-            </div>
+    <div class="container mx-auto w-full">
+        <div>
+            <button
+                class="ml-8 mb-12 bg-white text-center w-48 rounded-2xl h-14 relative text-black text-xl font-semibold group"
+                type="button" onclick="window.location.href='https://wk8686.top'">
+                <div
+                    class="bg-green-400 rounded-xl h-12 w-1/4 flex items-center justify-center absolute left-1 top-[4px] group-hover:w-[184px] z-10 duration-500">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" height="25px" width="25px">
+                        <path d="M224 480h640a32 32 0 1 1 0 64H224a32 32 0 0 1 0-64z" fill="#000000"></path>
+                        <path
+                            d="m237.248 512 265.408 265.344a32 32 0 0 1-45.312 45.312l-288-288a32 32 0 0 1 0-45.312l288-288a32 32 0 1 1 45.312 45.312L237.248 512z"
+                            fill="#000000"></path>
+                    </svg>
+                </div>
+                <p class="translate-x-2">Go Back</p>
+            </button>
         </div>
-        <div class="flex flex-wrap">
+        <div>
+            <h1>内容还没改完待调整</h1>
+        </div>
+        <div class="mx-auto flex flex-wrap gap-x-6 justify-around gap-y-10">
 
             <div
                 class="bg-white w-[300px] rounded-[30px] flex flex-col justify-center hover:shadow-lg min-h-[280px] dark:bg-gray-800 dark:text-white items-start relative group">
@@ -138,111 +149,446 @@
             </div>
 
 
-            <div class="card">
-                <h1 class="name" data-repo="MuiseDestiny/zotero-style">zotero-style</h1>
-                <p>zotero的样式美化插件，包括自动期刊标签，笔记预览，注释自定义，阅读时间等</p>
-
-                <a href="http://wk8686.top/archives/zoteroepi8" class="tuto">插件教程 </a>
+            <div
+                class="bg-white w-[300px] rounded-[30px] flex flex-col justify-center hover:shadow-lg min-h-[280px] dark:bg-gray-800 dark:text-white items-start relative group">
+                <div class="m-5">
+                    <div class="w-12 h-12 flex items-center justify-center absolute inset-x-0 top-0 ml-6 mt-6">
+                        <img src="https://pic-go-42.oss-cn-guangzhou.aliyuncs.com/img/202410172212541.svg" alt="">
+                    </div>
+                    <div class="mt-4 text-left w-full mb-3">
+                        <h2 class="text-2xl roboto-mono-500 text-gray-800 dark:text-white">
+                            zotero-addons
+                        </h2>
+                        <p class="mt-2 text-sm text-gray-500 dark:text-gray-300">
+                            zotero的插件管理，其实zotero7正式版之后就不怎么需要了
+                        </p>
+                    </div>
+                    <a href="http://wk8686.top/archives/zoteroepi8">
+                        <div
+                            class="bg-gray-300 dark:bg-gray-700 w-10 h-10 rounded-full absolute bottom-0 left-0 m-4 flex justify-center items-center hover:ring-4 ring-gray-200 dark:ring-gray-400 hover:transition duration-700 ease-in-out">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 18.256 18.256">
+                                <g transform="translate(5.363 5.325)">
+                                    <path d="M14.581,7.05,7.05,14.581" transform="translate(-7.05 -7.012)" fill="none"
+                                        stroke="#0D1117" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="1.5"></path>
+                                    <path d="M10,7l5.287.037.038,5.287" transform="translate(-7.756 -7)" fill="none"
+                                        stroke="#0D1117" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="1.5"></path>
+                                </g>
+                                <path d="M0,0H18.256V18.256H0Z" fill="none"></path>
+                            </svg>
+                        </div>
+                    </a>
+                </div>
             </div>
-            <div class="card">
-                <h1 class="name" data-repo="syt2/zotero-addons">zotero-addons</h1>
 
-
-                <a href="http://wk8686.top/archives/zoteroepi8" class="tuto">插件教程 </a>
+            <div
+                class="bg-white w-[300px] rounded-[30px] flex flex-col justify-center hover:shadow-lg min-h-[280px] dark:bg-gray-800 dark:text-white items-start relative group">
+                <div class="m-5">
+                    <div class="w-12 h-12 flex items-center justify-center absolute inset-x-0 top-0 ml-6 mt-6">
+                        <img src="https://pic-go-42.oss-cn-guangzhou.aliyuncs.com/img/202410172214682.png" alt="">
+                    </div>
+                    <div class="mt-4 text-left w-full mb-3">
+                        <h2 class="text-2xl roboto-mono-500 text-gray-800 dark:text-white">
+                            zotero-pdf-translate
+                        </h2>
+                        <p class="mt-2 text-sm text-gray-500 dark:text-gray-300">
+                            必装插件，多语言翻译插件，支持谷歌翻译，百度翻译，deepl，谷歌翻译等
+                        </p>
+                    </div>
+                    <a href="http://wk8686.top/archives/zoteroepi26">
+                        <div
+                            class="bg-gray-300 dark:bg-gray-700 w-10 h-10 rounded-full absolute bottom-0 left-0 m-4 flex justify-center items-center hover:ring-4 ring-gray-200 dark:ring-gray-400 hover:transition duration-700 ease-in-out">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 18.256 18.256">
+                                <g transform="translate(5.363 5.325)">
+                                    <path d="M14.581,7.05,7.05,14.581" transform="translate(-7.05 -7.012)" fill="none"
+                                        stroke="#0D1117" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="1.5"></path>
+                                    <path d="M10,7l5.287.037.038,5.287" transform="translate(-7.756 -7)" fill="none"
+                                        stroke="#0D1117" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="1.5"></path>
+                                </g>
+                                <path d="M0,0H18.256V18.256H0Z" fill="none"></path>
+                            </svg>
+                        </div>
+                    </a>
+                </div>
             </div>
-            <div class="card">
-                <h1 class="name" data-repo="windingwind/zotero-pdf-translate">zotero-pdf-translate</h1>
-                <p>版本号：<a class="plugin-content">版本</a></p>
 
-                <a href="http://wk8686.top/archives/zoteroepi26" class="tuto">插件教程 </a>
-
-
+            <div
+                class="bg-white w-[300px] rounded-[30px] flex flex-col justify-center hover:shadow-lg min-h-[280px] dark:bg-gray-800 dark:text-white items-start relative group">
+                <div class="m-5">
+                    <div class="w-12 h-12 flex items-center justify-center absolute inset-x-0 top-0 ml-6 mt-6">
+                        <img src="https://pic-go-42.oss-cn-guangzhou.aliyuncs.com/img/202410172200842.png" alt="">
+                    </div>
+                    <div class="mt-4 text-left w-full mb-3">
+                        <h2 class="text-2xl roboto-mono-500 text-gray-800 dark:text-white">
+                            jasminum
+                        </h2>
+                        <p class="mt-2 text-sm text-gray-500 dark:text-gray-300">
+                            必装插件，中文网页翻译器快速安装，包括知网
+                        </p>
+                    </div>
+                    <a href="http://wk8686.top/archives/zoteroepi2">
+                        <div
+                            class="bg-gray-300 dark:bg-gray-700 w-10 h-10 rounded-full absolute bottom-0 left-0 m-4 flex justify-center items-center hover:ring-4 ring-gray-200 dark:ring-gray-400 hover:transition duration-700 ease-in-out">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 18.256 18.256">
+                                <g transform="translate(5.363 5.325)">
+                                    <path d="M14.581,7.05,7.05,14.581" transform="translate(-7.05 -7.012)" fill="none"
+                                        stroke="#0D1117" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="1.5"></path>
+                                    <path d="M10,7l5.287.037.038,5.287" transform="translate(-7.756 -7)" fill="none"
+                                        stroke="#0D1117" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="1.5"></path>
+                                </g>
+                                <path d="M0,0H18.256V18.256H0Z" fill="none"></path>
+                            </svg>
+                        </div>
+                    </a>
+                </div>
             </div>
-            <div class="card">
-                <h1 class="name" data-repo="l0o0/jasminum">jasminum</h1>
-                <a href="http://wk8686.top/archives/zoteroepi2" class="tuto">插件教程 </a>
-
+            <div
+                class="bg-white w-[300px] rounded-[30px] flex flex-col justify-center hover:shadow-lg min-h-[280px] dark:bg-gray-800 dark:text-white items-start relative group">
+                <div class="m-5">
+                    <div class="w-12 h-12 flex items-center justify-center absolute inset-x-0 top-0 ml-6 mt-6">
+                        <img src="https://pic-go-42.oss-cn-guangzhou.aliyuncs.com/img/202410172200842.png" alt="">
+                    </div>
+                    <div class="mt-4 text-left w-full mb-3">
+                        <h2 class="text-2xl roboto-mono-500 text-gray-800 dark:text-white">
+                            zotero-reference
+                        </h2>
+                        <p class="mt-2 text-sm text-gray-500 dark:text-gray-300">
+                            Manage and format references efficiently.
+                        </p>
+                    </div>
+                    <a href="http://wk8686.top/archives/zoteroepi28">
+                        <div
+                            class="bg-gray-300 dark:bg-gray-700 w-10 h-10 rounded-full absolute bottom-0 left-0 m-4 flex justify-center items-center hover:ring-4 ring-gray-200 dark:ring-gray-400 hover:transition duration-700 ease-in-out">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 18.256 18.256">
+                                <g transform="translate(5.363 5.325)">
+                                    <path d="M14.581,7.05,7.05,14.581" transform="translate(-7.05 -7.012)" fill="none"
+                                        stroke="#0D1117" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="1.5"></path>
+                                    <path d="M10,7l5.287.037.038,5.287" transform="translate(-7.756 -7)" fill="none"
+                                        stroke="#0D1117" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="1.5"></path>
+                                </g>
+                                <path d="M0,0H18.256V18.256H0Z" fill="none"></path>
+                            </svg>
+                        </div>
+                    </a>
+                </div>
             </div>
-            <div class="card">
-                <h1 class="name" data-repo="MuiseDestiny/zotero-reference">zotero-reference</h1>
 
-
-                <a href="http://wk8686.top/archives/zoteroepi28" class="tuto">插件教程 </a>
-
+            <div
+                class="bg-white w-[300px] rounded-[30px] flex flex-col justify-center hover:shadow-lg min-h-[280px] dark:bg-gray-800 dark:text-white items-start relative group">
+                <div class="m-5">
+                    <div class="w-12 h-12 flex items-center justify-center absolute inset-x-0 top-0 ml-6 mt-6">
+                        <img src="https://pic-go-42.oss-cn-guangzhou.aliyuncs.com/img/202410172200842.png" alt="">
+                    </div>
+                    <div class="mt-4 text-left w-full mb-3">
+                        <h2 class="text-2xl roboto-mono-500 text-gray-800 dark:text-white">
+                            zotero-citation
+                        </h2>
+                        <p class="mt-2 text-sm text-gray-500 dark:text-gray-300">
+                            Improve citation formatting for academic writing.
+                        </p>
+                    </div>
+                    <a href="http://wk8686.top/archives/zoteroepi32">
+                        <div
+                            class="bg-gray-300 dark:bg-gray-700 w-10 h-10 rounded-full absolute bottom-0 left-0 m-4 flex justify-center items-center hover:ring-4 ring-gray-200 dark:ring-gray-400 hover:transition duration-700 ease-in-out">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 18.256 18.256">
+                                <g transform="translate(5.363 5.325)">
+                                    <path d="M14.581,7.05,7.05,14.581" transform="translate(-7.05 -7.012)" fill="none"
+                                        stroke="#0D1117" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="1.5"></path>
+                                    <path d="M10,7l5.287.037.038,5.287" transform="translate(-7.756 -7)" fill="none"
+                                        stroke="#0D1117" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="1.5"></path>
+                                </g>
+                                <path d="M0,0H18.256V18.256H0Z" fill="none"></path>
+                            </svg>
+                        </div>
+                    </a>
+                </div>
             </div>
-            <div class="card">
-                <h1 class="name" data-repo="MuiseDestiny/zotero-citation">zotero-citation</h1>
 
-
-                <a href="http://wk8686.top/archives/zoteroepi32" class="tuto">插件教程 </a>
-
+            <div
+                class="bg-white w-[300px] rounded-[30px] flex flex-col justify-center hover:shadow-lg min-h-[280px] dark:bg-gray-800 dark:text-white items-start relative group">
+                <div class="m-5">
+                    <div class="w-12 h-12 flex items-center justify-center absolute inset-x-0 top-0 ml-6 mt-6">
+                        <img src="https://pic-go-42.oss-cn-guangzhou.aliyuncs.com/img/202410172200842.png" alt="">
+                    </div>
+                    <div class="mt-4 text-left w-full mb-3">
+                        <h2 class="text-2xl roboto-mono-500 text-gray-800 dark:text-white">
+                            zotero-figure
+                        </h2>
+                        <p class="mt-2 text-sm text-gray-500 dark:text-gray-300">
+                            Enhance figures and visuals in Zotero.
+                        </p>
+                    </div>
+                    <a href="http://wk8686.top/archives/zoteroepi47">
+                        <div
+                            class="bg-gray-300 dark:bg-gray-700 w-10 h-10 rounded-full absolute bottom-0 left-0 m-4 flex justify-center items-center hover:ring-4 ring-gray-200 dark:ring-gray-400 hover:transition duration-700 ease-in-out">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 18.256 18.256">
+                                <g transform="translate(5.363 5.325)">
+                                    <path d="M14.581,7.05,7.05,14.581" transform="translate(-7.05 -7.012)" fill="none"
+                                        stroke="#0D1117" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="1.5"></path>
+                                    <path d="M10,7l5.287.037.038,5.287" transform="translate(-7.756 -7)" fill="none"
+                                        stroke="#0D1117" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="1.5"></path>
+                                </g>
+                                <path d="M0,0H18.256V18.256H0Z" fill="none"></path>
+                            </svg>
+                        </div>
+                    </a>
+                </div>
             </div>
-            <div class="card">
-                <h1 class="name" data-repo="MuiseDestiny/zotero-figure">zotero-figure</h1>
-
-
-                <a href="http://wk8686.top/archives/zoteroepi47" class="tuto">插件教程 </a>
-
+            <div
+                class="bg-white w-[300px] rounded-[30px] flex flex-col justify-center hover:shadow-lg min-h-[280px] dark:bg-gray-800 dark:text-white items-start relative group">
+                <div class="m-5">
+                    <div class="w-12 h-12 flex items-center justify-center absolute inset-x-0 top-0 ml-6 mt-6">
+                        <img src="https://pic-go-42.oss-cn-guangzhou.aliyuncs.com/img/202410172200842.png" alt="">
+                    </div>
+                    <div class="mt-4 text-left w-full mb-3">
+                        <h2 class="text-2xl roboto-mono-500 text-gray-800 dark:text-white">
+                            zotero-actions-tags
+                        </h2>
+                        <p class="mt-2 text-sm text-gray-500 dark:text-gray-300">
+                            Efficiently manage actions and tags within Zotero.
+                        </p>
+                    </div>
+                </div>
             </div>
-            <div class="card">
-                <h1 class="name" data-repo="windingwind/zotero-actions-tags">zotero-actions-tags</h1>
 
-
-
+            <div
+                class="bg-white w-[300px] rounded-[30px] flex flex-col justify-center hover:shadow-lg min-h-[280px] dark:bg-gray-800 dark:text-white items-start relative group">
+                <div class="m-5">
+                    <div class="w-12 h-12 flex items-center justify-center absolute inset-x-0 top-0 ml-6 mt-6">
+                        <img src="https://pic-go-42.oss-cn-guangzhou.aliyuncs.com/img/202410172200842.png" alt="">
+                    </div>
+                    <div class="mt-4 text-left w-full mb-3">
+                        <h2 class="text-2xl roboto-mono-500 text-gray-800 dark:text-white">
+                            zotero-better-notes
+                        </h2>
+                        <p class="mt-2 text-sm text-gray-500 dark:text-gray-300">
+                            A better way to manage notes in Zotero.
+                        </p>
+                    </div>
+                    <a href="http://wk8686.top/archives/zoteroepi87">
+                        <div
+                            class="bg-gray-300 dark:bg-gray-700 w-10 h-10 rounded-full absolute bottom-0 left-0 m-4 flex justify-center items-center hover:ring-4 ring-gray-200 dark:ring-gray-400 hover:transition duration-700 ease-in-out">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 18.256 18.256">
+                                <g transform="translate(5.363 5.325)">
+                                    <path d="M14.581,7.05,7.05,14.581" transform="translate(-7.05 -7.012)" fill="none"
+                                        stroke="#0D1117" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="1.5"></path>
+                                    <path d="M10,7l5.287.037.038,5.287" transform="translate(-7.756 -7)" fill="none"
+                                        stroke="#0D1117" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="1.5"></path>
+                                </g>
+                                <path d="M0,0H18.256V18.256H0Z" fill="none"></path>
+                            </svg>
+                        </div>
+                    </a>
+                </div>
             </div>
-            <div class="card">
-                <h1 class="name" data-repo="windingwind/zotero-better-notes">zotero-better-notes</h1>
 
-
-                <a href="http://wk8686.top/archives/zoteroepi87" class="tuto">插件教程 </a>
-
+            <div
+                class="bg-white w-[300px] rounded-[30px] flex flex-col justify-center hover:shadow-lg min-h-[280px] dark:bg-gray-800 dark:text-white items-start relative group">
+                <div class="m-5">
+                    <div class="w-12 h-12 flex items-center justify-center absolute inset-x-0 top-0 ml-6 mt-6">
+                        <img src="https://pic-go-42.oss-cn-guangzhou.aliyuncs.com/img/202410172200842.png" alt="">
+                    </div>
+                    <div class="mt-4 text-left w-full mb-3">
+                        <h2 class="text-2xl roboto-mono-500 text-gray-800 dark:text-white">
+                            tara
+                        </h2>
+                        <p class="mt-2 text-sm text-gray-500 dark:text-gray-300">
+                            An advanced Zotero plugin for literature review and research tracking.
+                        </p>
+                    </div>
+                    <a href="http://wk8686.top/archives/zoteroepi52">
+                        <div
+                            class="bg-gray-300 dark:bg-gray-700 w-10 h-10 rounded-full absolute bottom-0 left-0 m-4 flex justify-center items-center hover:ring-4 ring-gray-200 dark:ring-gray-400 hover:transition duration-700 ease-in-out">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 18.256 18.256">
+                                <g transform="translate(5.363 5.325)">
+                                    <path d="M14.581,7.05,7.05,14.581" transform="translate(-7.05 -7.012)" fill="none"
+                                        stroke="#0D1117" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="1.5"></path>
+                                    <path d="M10,7l5.287.037.038,5.287" transform="translate(-7.756 -7)" fill="none"
+                                        stroke="#0D1117" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="1.5"></path>
+                                </g>
+                                <path d="M0,0H18.256V18.256H0Z" fill="none"></path>
+                            </svg>
+                        </div>
+                    </a>
+                </div>
             </div>
-            <div class="card">
-                <h1 class="name" data-repo="l0o0/tara">tara</h1>
 
-
-                <a href="http://wk8686.top/archives/zoteroepi52" class="tuto">插件教程 </a>
-
+            <div
+                class="bg-white w-[300px] rounded-[30px] flex flex-col justify-center hover:shadow-lg min-h-[280px] dark:bg-gray-800 dark:text-white items-start relative group">
+                <div class="m-5">
+                    <div class="w-12 h-12 flex items-center justify-center absolute inset-x-0 top-0 ml-6 mt-6">
+                        <img src="https://pic-go-42.oss-cn-guangzhou.aliyuncs.com/img/202410172200842.png" alt="">
+                    </div>
+                    <div class="mt-4 text-left w-full mb-3">
+                        <h2 class="text-2xl roboto-mono-500 text-gray-800 dark:text-white">
+                            obsidian-zotlit
+                        </h2>
+                        <p class="mt-2 text-sm text-gray-500 dark:text-gray-300">
+                            Integrate Zotero with Obsidian for a seamless note-taking experience.
+                        </p>
+                    </div>
+                    <a href="http://wk8686.top/archives/zoteroepi88">
+                        <div
+                            class="bg-gray-300 dark:bg-gray-700 w-10 h-10 rounded-full absolute bottom-0 left-0 m-4 flex justify-center items-center hover:ring-4 ring-gray-200 dark:ring-gray-400 hover:transition duration-700 ease-in-out">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 18.256 18.256">
+                                <g transform="translate(5.363 5.325)">
+                                    <path d="M14.581,7.05,7.05,14.581" transform="translate(-7.05 -7.012)" fill="none"
+                                        stroke="#0D1117" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="1.5"></path>
+                                    <path d="M10,7l5.287.037.038,5.287" transform="translate(-7.756 -7)" fill="none"
+                                        stroke="#0D1117" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="1.5"></path>
+                                </g>
+                                <path d="M0,0H18.256V18.256H0Z" fill="none"></path>
+                            </svg>
+                        </div>
+                    </a>
+                </div>
             </div>
-            <div class="card">
-                <h1 class="name" data-repo="PKM-er/obsidian-zotlit">obsidian-zotlit</h1>
-
-
-                <a href="http://wk8686.top/archives/zoteroepi88" class="tuto">插件教程 </a>
-
-
+            <div
+                class="bg-white w-[300px] rounded-[30px] flex flex-col justify-center hover:shadow-lg min-h-[280px] dark:bg-gray-800 dark:text-white items-start relative group">
+                <div class="m-5">
+                    <div class="w-12 h-12 flex items-center justify-center absolute inset-x-0 top-0 ml-6 mt-6">
+                        <img src="https://pic-go-42.oss-cn-guangzhou.aliyuncs.com/img/202410172200842.png" alt="">
+                    </div>
+                    <div class="mt-4 text-left w-full mb-3">
+                        <h2 class="text-2xl roboto-mono-500 text-gray-800 dark:text-white">
+                            Chartero
+                        </h2>
+                        <p class="mt-2 text-sm text-gray-500 dark:text-gray-300">
+                            Create and manage charts within Zotero.
+                        </p>
+                    </div>
+                    <a href="http://wk8686.top/archives/zoteroepi58">
+                        <div
+                            class="bg-gray-300 dark:bg-gray-700 w-10 h-10 rounded-full absolute bottom-0 left-0 m-4 flex justify-center items-center hover:ring-4 ring-gray-200 dark:ring-gray-400 hover:transition duration-700 ease-in-out">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 18.256 18.256">
+                                <g transform="translate(5.363 5.325)">
+                                    <path d="M14.581,7.05,7.05,14.581" transform="translate(-7.05 -7.012)" fill="none"
+                                        stroke="#0D1117" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="1.5"></path>
+                                    <path d="M10,7l5.287.037.038,5.287" transform="translate(-7.756 -7)" fill="none"
+                                        stroke="#0D1117" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="1.5"></path>
+                                </g>
+                                <path d="M0,0H18.256V18.256H0Z" fill="none"></path>
+                            </svg>
+                        </div>
+                    </a>
+                </div>
             </div>
-            <div class="card">
-                <h1 class="name" data-repo="volatile-static/Chartero">Chartero</h1>
 
-
-                <a href="http://wk8686.top/archives/zoteroepi58" class="tuto">插件教程 </a>
-
-
+            <div
+                class="bg-white w-[300px] rounded-[30px] flex flex-col justify-center hover:shadow-lg min-h-[280px] dark:bg-gray-800 dark:text-white items-start relative group">
+                <div class="m-5">
+                    <div class="w-12 h-12 flex items-center justify-center absolute inset-x-0 top-0 ml-6 mt-6">
+                        <img src="https://pic-go-42.oss-cn-guangzhou.aliyuncs.com/img/202410172200842.png" alt="">
+                    </div>
+                    <div class="mt-4 text-left w-full mb-3">
+                        <h2 class="text-2xl roboto-mono-500 text-gray-800 dark:text-white">
+                            zotero-format-metadata
+                        </h2>
+                        <p class="mt-2 text-sm text-gray-500 dark:text-gray-300">
+                            Format metadata for Zotero references.
+                        </p>
+                    </div>
+                    <a href="http://wk8686.top/archives/zoteroepi57">
+                        <div
+                            class="bg-gray-300 dark:bg-gray-700 w-10 h-10 rounded-full absolute bottom-0 left-0 m-4 flex justify-center items-center hover:ring-4 ring-gray-200 dark:ring-gray-400 hover:transition duration-700 ease-in-out">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 18.256 18.256">
+                                <g transform="translate(5.363 5.325)">
+                                    <path d="M14.581,7.05,7.05,14.581" transform="translate(-7.05 -7.012)" fill="none"
+                                        stroke="#0D1117" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="1.5"></path>
+                                    <path d="M10,7l5.287.037.038,5.287" transform="translate(-7.756 -7)" fill="none"
+                                        stroke="#0D1117" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="1.5"></path>
+                                </g>
+                                <path d="M0,0H18.256V18.256H0Z" fill="none"></path>
+                            </svg>
+                        </div>
+                    </a>
+                </div>
             </div>
-            <div class="card">
-                <h1 class="name" data-repo="northword/zotero-format-metadata">zotero-format-metadata</h1>
 
-
-                <a href="http://wk8686.top/archives/zoteroepi57" class="tuto">插件教程 </a>
-
-
+            <div
+                class="bg-white w-[300px] rounded-[30px] flex flex-col justify-center hover:shadow-lg min-h-[280px] dark:bg-gray-800 dark:text-white items-start relative group">
+                <div class="m-5">
+                    <div class="w-12 h-12 flex items-center justify-center absolute inset-x-0 top-0 ml-6 mt-6">
+                        <img src="https://pic-go-42.oss-cn-guangzhou.aliyuncs.com/img/202410172200842.png" alt="">
+                    </div>
+                    <div class="mt-4 text-left w-full mb-3">
+                        <h2 class="text-2xl roboto-mono-500 text-gray-800 dark:text-white">
+                            zotcard
+                        </h2>
+                        <p class="mt-2 text-sm text-gray-500 dark:text-gray-300">
+                            Manage Zotero cards for easy reference management.
+                        </p>
+                    </div>
+                    <a href="http://wk8686.top/archives/zoteroepi60">
+                        <div
+                            class="bg-gray-300 dark:bg-gray-700 w-10 h-10 rounded-full absolute bottom-0 left-0 m-4 flex justify-center items-center hover:ring-4 ring-gray-200 dark:ring-gray-400 hover:transition duration-700 ease-in-out">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 18.256 18.256">
+                                <g transform="translate(5.363 5.325)">
+                                    <path d="M14.581,7.05,7.05,14.581" transform="translate(-7.05 -7.012)" fill="none"
+                                        stroke="#0D1117" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="1.5"></path>
+                                    <path d="M10,7l5.287.037.038,5.287" transform="translate(-7.756 -7)" fill="none"
+                                        stroke="#0D1117" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="1.5"></path>
+                                </g>
+                                <path d="M0,0H18.256V18.256H0Z" fill="none"></path>
+                            </svg>
+                        </div>
+                    </a>
+                </div>
             </div>
-            <div class="card">
-                <h1 class="name" data-repo="018/zotcard">zotcard</h1>
-
-
-                <a href="http://wk8686.top/archives/zoteroepi60" class="tuto">插件教程 </a>
-
-
-            </div>
-            <div class="card">
-                <h1 class="name" data-repo="ChenglongMa/zoplicate">zoplicate</h1>
-
-
-                <a href="http://wk8686.top/archives/zoteroepi91" class="tuto">插件教程 </a>
-
-
+            <div
+                class="bg-white w-[300px] rounded-[30px] flex flex-col justify-center hover:shadow-lg min-h-[280px] dark:bg-gray-800 dark:text-white items-start relative group">
+                <div class="m-5">
+                    <div class="w-12 h-12 flex items-center justify-center absolute inset-x-0 top-0 ml-6 mt-6">
+                        <img src="https://pic-go-42.oss-cn-guangzhou.aliyuncs.com/img/202410172200842.png" alt="">
+                    </div>
+                    <div class="mt-4 text-left w-full mb-3">
+                        <h2 class="text-2xl roboto-mono-500 text-gray-800 dark:text-white">
+                            zoplicate
+                        </h2>
+                        <p class="mt-2 text-sm text-gray-500 dark:text-gray-300">
+                            A plugin to detect and manage duplicates in Zotero.
+                        </p>
+                    </div>
+                    <a href="http://wk8686.top/archives/zoteroepi91">
+                        <div
+                            class="bg-gray-300 dark:bg-gray-700 w-10 h-10 rounded-full absolute bottom-0 left-0 m-4 flex justify-center items-center hover:ring-4 ring-gray-200 dark:ring-gray-400 hover:transition duration-700 ease-in-out">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 18.256 18.256">
+                                <g transform="translate(5.363 5.325)">
+                                    <path d="M14.581,7.05,7.05,14.581" transform="translate(-7.05 -7.012)" fill="none"
+                                        stroke="#0D1117" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="1.5"></path>
+                                    <path d="M10,7l5.287.037.038,5.287" transform="translate(-7.756 -7)" fill="none"
+                                        stroke="#0D1117" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="1.5"></path>
+                                </g>
+                                <path d="M0,0H18.256V18.256H0Z" fill="none"></path>
+                            </svg>
+                        </div>
+                    </a>
+                </div>
             </div>
 
         </div>
