@@ -1,0 +1,7 @@
+{
+  "lastUpdated": "2024/5/22 下午9:00:00",
+  "data": {
+    "message": "API rate limit exceeded for 112.74.48.143. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)",
+    "documentation_url": "https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"
+  }
+}
