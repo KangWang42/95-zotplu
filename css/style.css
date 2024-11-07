@@ -30,6 +30,8 @@ border: #f3dcc4 3px solid;
   transition-delay: 200ms;
   scale: 105%;
   transition-duration: 400ms;
+  transition-behavior: smooth;
+
 }
 
 @media screen and(max-width:700px) {
@@ -293,7 +295,6 @@ p.zotadd {
 
 @media (min-width: 500px) {
   .container {
-    width: 100% !important;
     max-width: 100%!important;
     margin: 0px;
   }
